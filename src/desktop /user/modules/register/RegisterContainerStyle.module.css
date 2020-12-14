@@ -1,0 +1,13 @@
+.form_wrapper {
+  width: 500px;
+  margin: auto;
+  background-color: blue;
+  height: 500px;
+  text-align: center;
+}
+
+.form_wrapper input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
