@@ -1,7 +1,15 @@
-.main {
-  width: 400px;
+.form {
+  background-color: white;
+  min-height: 100vh;
+  display: flow;
+  color: white;
+}
+
+.logo {
+  color: #125899;
   margin: auto;
-  color: red;
-  background-color: green;
-  text-align: center;
+  width: 32%;
+  font-size: 70px;
+  font-weight: bolder;
+  text-shadow: 8px 2px 9px rgb(18, 88, 153);
 }

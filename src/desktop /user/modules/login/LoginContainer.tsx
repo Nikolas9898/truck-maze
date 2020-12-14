@@ -1,17 +1,20 @@
-import React from 'react';
-import LoginContainerStyle from './LoginContainerStyle.module.css';
+import React from "react";
+import LoginForm from "./components/login/LoginForm";
+import LoginContainerStyle from "./LoginContainerStyle.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTruckMoving } from "@fortawesome/free-solid-svg-icons";
 
 const LoginContainer = () => {
+  return (
+    <div className={LoginContainerStyle.form}>
+      <div className={LoginContainerStyle.logo}>
+        <FontAwesomeIcon className="icon" icon={faTruckMoving} />
+        Truck Maze
+      </div>
 
-
-    
-    return (
-        <div className={LoginContainerStyle.main}>
-            tova e containera
-        </div>
-    );
+      <LoginForm />
+    </div>
+  );
 };
-
-
 
 export default LoginContainer;
